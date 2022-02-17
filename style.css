@@ -18,33 +18,40 @@
 }
 
 #hd {
-  background-color: blueviolet;
+  background-color:black;
   height: 10vh;
   width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   grid-area: hd;
 }
 
 #mn {
-  background-color: cadetblue;
+  background-color: white;
   width: 70vw;
   height: 80vh;
-  /* display: grid;
-  grid-template-rows: 40vh 40vh;
-  grid-template-columns: 20vw 30vw 1fr;
+   display: grid;
+   font-size: large;
+   font: bold;
+   color:black
+
+   
+  grid-template-rows 40vh 40vh ;
+  grid-template-columns:23.3vw 23.3vw 23.3vw ;
   grid-template-areas: 
 "item01 item02 item03"
-"item04 item05 item06"; */
+"item04 item05 item06";
 grid-area: mn;
 }
 
 #sd {
-  background-color: cornflowerblue;
+  background-color: black;
   height: 80vh;
   width: 30vw;
   grid-area: sd;
+  font: bold;
+ color: white;
 }
 
 #ft {
@@ -52,6 +59,7 @@ grid-area: mn;
   height: 10vh;
   width: 100vw;
   grid-area: ft;
+  
 }
 
 #logo {
@@ -65,7 +73,8 @@ grid-area: mn;
   border: 1px solid #000;
   height: 10vh;
   width: 50vw;
-  background-color: violet;
+  background-color: black;
+  color: white ;
 }
 
 .box {
@@ -98,6 +107,9 @@ grid-area: mn;
 #item06 {
   grid-area: item06;
 }
+
+  
+
 
 /*_______________________small devices____________________*/
 @media screen and (max-width: 375px) {
